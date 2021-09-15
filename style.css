@@ -1,0 +1,140 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+   
+   
+}
+.main{
+
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    width:100%;
+
+}
+
+.box{
+    width: 380px;
+    height: 600px;
+    box-shadow: 10px 10px 8px #888888;
+    margin:6% auto;
+    background: rgb(255, 255, 255);
+    border-radius: 6%;
+}
+#image{
+    width: 380px;
+    height: 180px;
+
+    border-radius: 6%;
+    padding-top:0;
+}
+.header{
+    padding-top:15px;
+    text-align: center;
+    font-size:25px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    color: rgb(63, 61, 61);
+}
+p{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top:5px;
+    color: rgb(19, 19, 19);
+}
+.flex-container {
+    display: flex;
+    width: 380px;
+    height: 100px;
+    align-items: center;
+  
+  }
+  
+  .flex-container > div {
+
+   
+    margin: 5px;
+  
+    font-size: 30px;
+  }
+ 
+  h2{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top:18px;
+    color: rgb(94, 92, 92);
+    line-height:0.1rem;
+    
+}
+  .currency{
+      line-height:0.1rem;
+      font-size: 14px;
+  }
+  #img{
+      padding-top:20px;
+      padding-left: 40px;
+      padding-right: 0;
+     
+  }
+  .link{
+
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left:80px;
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+  }
+  .link:hover{
+      color: hsl(245, 75%, 52%); ;
+
+  }
+ .button{
+     width:250px;
+    border-radius: 10px;
+    background-color:hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 20px;
+    margin-left:8.5%;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    box-shadow: 10px 10px 8px #b9cafa;
+    margin-bottom:5%;
+    opacity: 1;
+    transition: 0.5s;
+ }
+.button:hover{opacity:0.7}
+
+
+
+ .Cancel{
+     margin-left:35%;
+     padding-bottom:5%;
+     text-decoration: none;
+     font-family: 'Red Hat Display', sans-serif;
+     font-weight: 500;
+     color: rgb(94, 92, 92);
+     opacity: 0.6;
+  transition: 0.3s;
+ }
+.Cancel:hover{
+    opacity:1;
+  
+}
